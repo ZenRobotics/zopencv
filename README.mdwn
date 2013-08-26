@@ -1,0 +1,17 @@
+zopencv - a Java/Clojure Wrapper for OpenCV
+===========================================
+
+Requirements
+------------
+
+1. OpenCV + headers, version 2.3 works
+2. SWIG 2.0
+3. JDK with JNI headers
+4. Clojure
+
+Getting started
+---------------
+
+1. Edit variables at the top of the `Makefile`
+2. Run `make` to get a REPL
+3. `(use 'com.zenrobotics.zopencv)` or look at `example.clj`
